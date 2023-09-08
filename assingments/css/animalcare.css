@@ -1,0 +1,163 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+/* banner  */
+
+
+
+
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/paws.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+
+/* navbar  */
+
+
+
+
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ff9900;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+
+
+/* content  */
+
+
+
+
+
+.content{
+    margin-left: 90px;
+    margin-top: 20PX;
+    max-width: 50%;
+
+    
+}
+.content h1,h2{
+    color: #606060;
+    cursor: pointer;
+}
+
+.content p, ul li{
+    color: rgb(0, 0, 0);
+
+}
+.content img{
+    display: block; 
+    margin-left: 20px; 
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* footer  */ 
+
+
+
+footer{
+    background-color: #333;
+      color: white;
+      text-align: center;
+    padding: 30px;
+    margin-top: 25px;
+    
+}
+
+footer img {
+    width: 120px;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+footer ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ff9900;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+footer ul li:hover::after{
+    width: 100%;
+}
+
+footer p{
+    font-size: 10px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* margin: 10px 15px 20px 25px; */

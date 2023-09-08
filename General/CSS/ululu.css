@@ -1,0 +1,102 @@
+/* .hands1{
+    border: 2px solid #000; 
+    border-radius: 5px;   
+    border-style: dotted;
+}
+.hands2{
+    border: 2px solid #000; 
+    border-radius: 5px;   
+    border-style: double;
+    padding: 10px; 
+}
+.hands3{
+    border: 2px solid #000; 
+    border-radius: 5px;   
+    border-style: dashed;
+}
+.hands4{
+    border: 2px solid #000; 
+    border-radius: 5px;   
+    border-style: solid;
+}
+.hands5{
+    border: 2px solid #000; 
+    border-radius: 5px;   
+    border-style: none;
+}
+.hands6{
+    border: 2px solid #000; 
+    border-radius: 5px;   
+    border-style: hidden;
+   
+}
+.repeat{
+    background-image: url(../assets/handddd.jpg);
+    height: 440px;
+    width: 800px;
+    background-attachment: fixed;
+    background-position: cover;
+}
+
+
+#con1,
+#con2 {
+  background-color: aqua;
+  height: 200px;
+  width: 50%;
+}
+#con1{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 30px;
+    padding: 50px;
+}
+#con2{
+    margin-top: 20px;
+} */
+
+
+h1,
+p,
+span,
+a {
+    border: 5px solid blue;
+}
+
+.navbar li {
+    display: inline;
+    
+}
+.navbar{
+    border-right: 2px;
+    
+}
+
+/* 
+a {
+    display:block;
+    margin-top:20px
+ }
+ 
+ a {
+    display: inline-block;
+    margin-top:20px;
+    width: 1200
+    height: 200px  */
+
+.but1 {
+    border: 2px;
+    border-radius: 10px;
+    border-spacing: 20px;
+    border-color: black;
+}
+
+.demo{
+    display: none;
+}
+.demoo{
+    visibility: hidden;
+}
+section{
+      position: fixed;
+}
